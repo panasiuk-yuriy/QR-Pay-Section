@@ -5,10 +5,9 @@ body {
   background: linear-gradient(0deg, #fafbfe 0%, #fafbfe 41.43%, rgba(219, 229, 255, 0) 81.17%); }
 
 .container {
-  width: 100%;
   max-width: 1165px;
   margin: 0 auto;
-  padding: 0 20px; }
+  padding: 0 16px; }
 
 @media (max-width: 450px) {
   .container {
@@ -31,6 +30,14 @@ body {
   color: #2b2f4a;
   margin-bottom: 15px; }
 
+@media (min-width: 1020px) {
+  .title__block h2:last-of-type {
+    display: none; } }
+
+@media (max-width: 1020px) {
+  .title__block h2:first-child {
+    display: none; } }
+
 @media (max-width: 620px) {
   .title__block h2 {
     font-size: 30px;
@@ -48,11 +55,6 @@ body {
   .title__block p {
     font-size: 20px;
     line-height: 25px; } }
-
-@media (max-width: 450px) {
-  .title__block p {
-    font-size: 16px;
-    line-height: 20px; } }
 
 .dodatok {
   width: 100%; }
@@ -114,12 +116,22 @@ body {
   flex-wrap: nowrap;
   margin: 0 auto; }
 
+@media (max-width: 1020px) {
+  .dodatok .dodatok__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
 .dodatok .dodatok__info__left {
   width: 197px; }
 
 @media (max-width: 1020px) {
   .dodatok .dodatok__info__left {
-    display: none; } }
+    width: 143px; } }
 
 .dodatok .dodatok__info__left img {
   width: 100%; }
@@ -131,7 +143,7 @@ body {
 @media (max-width: 1020px) {
   .dodatok .dodatok__info__right {
     width: 100%;
-    padding-left: 0; } }
+    padding: 47px 0 0; } }
 
 .dodatok .dodatok__info__right__list {
   width: 100%;
@@ -212,12 +224,22 @@ body {
   color: #476488;
   display: block; }
 
+@media (max-width: 1020px) {
+  .dodatok .dodatok__info__right__list__item .text .title {
+    font-size: 23px;
+    line-height: 26px; } }
+
 .dodatok .dodatok__info__right__list__item .text p {
   font-weight: 300;
   font-size: 14px;
   line-height: 25px;
   color: #2b2f4a;
   margin: 5px 0 10px; }
+
+@media (max-width: 1020px) {
+  .dodatok .dodatok__info__right__list__item .text p {
+    font-size: 15px;
+    line-height: 23px; } }
 
 .dodatok .download__app {
   width: 100%;
@@ -237,12 +259,9 @@ body {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap; }
 
-@media (max-width: 650px) {
+@media (max-width: 1020px) {
   .dodatok .download__app {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; } }
+    display: none; } }
 
 @media (max-width: 650px) {
   .dodatok .download__app__item {
