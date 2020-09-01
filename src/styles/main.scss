@@ -118,7 +118,7 @@ body {
 
 .dodatok .dodatok__info {
   width: 100%;
-  max-width: 994px;
+  max-width: 964px;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -150,8 +150,8 @@ body {
 }
 
 .dodatok .dodatok__info__right {
-  width: calc(100% - 412px);
-  padding: 20px 0 0 95px;
+  width: calc(100% - 400px);
+  padding: 15px 0 0 95px;
 }
 
 @media (max-width: 1020px) {
@@ -163,7 +163,7 @@ body {
 
 .dodatok .dodatok__info__right__list {
   width: 100%;
-  max-width: 522px;
+  max-width: 480px;
   margin-bottom: 10px;
 }
 
@@ -192,6 +192,7 @@ body {
 
 .dodatok .dodatok__info__right__list__item .num {
   margin-right: 25px;
+  margin-bottom: 15px;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -244,7 +245,6 @@ body {
   line-height: 25px;
   color: #476488;
   display: block;
-  margin-bottom: 10px;
 }
 
 .dodatok .dodatok__info__right__list__item .text p {
@@ -252,7 +252,7 @@ body {
   font-size: 14px;
   line-height: 25px;
   color: #2b2f4a;
-  margin-top: 5px;
+  margin: 5px 0 10px;
 }
 
 .dodatok .download__app {
@@ -267,7 +267,7 @@ body {
   align-items: flex-start;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: space-between;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
 }
@@ -279,10 +279,6 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-}
-
-.dodatok .download__app__item {
-  margin-right: 74px;
 }
 
 @media (max-width: 650px) {
