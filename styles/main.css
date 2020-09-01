@@ -1,0 +1,290 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fafbfe), color-stop(41.43%, #fafbfe), color-stop(81.17%, rgba(219, 229, 255, 0)));
+  background: linear-gradient(0deg, #fafbfe 0%, #fafbfe 41.43%, rgba(219, 229, 255, 0) 81.17%); }
+
+.container {
+  width: 100%;
+  max-width: 1165px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+@media (max-width: 450px) {
+  .container {
+    padding: 0 10px; } }
+
+.title__block {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center; }
+
+@media (max-width: 620px) {
+  .title__block {
+    margin-bottom: 30px; } }
+
+.title__block h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #2b2f4a;
+  margin-bottom: 15px; }
+
+@media (max-width: 620px) {
+  .title__block h2 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 10px; } }
+
+.title__block p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #2b2f4a; }
+
+@media (max-width: 620px) {
+  .title__block p {
+    font-size: 20px;
+    line-height: 25px; } }
+
+@media (max-width: 450px) {
+  .title__block p {
+    font-size: 16px;
+    line-height: 20px; } }
+
+.dodatok {
+  width: 100%; }
+
+.dodatok .dodatok__wrap {
+  width: 100%;
+  padding: 44px 0 94px; }
+
+.dodatok .qr__logo {
+  height: 154px;
+  width: 154px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto 40px; }
+
+@media (max-width: 650px) {
+  .dodatok .qr__logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px; } }
+
+.dodatok .qr__logo .img {
+  width: 100%;
+  position: relative;
+  z-index: 2; }
+
+.dodatok .qr__logo .back {
+  /* position: absolute; */ }
+
+@media (max-width: 650px) {
+  .dodatok .qr__logo .back {
+    width: 200%; } }
+
+.dodatok .dodatok__info {
+  width: 100%;
+  max-width: 994px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 0 auto; }
+
+.dodatok .dodatok__info__left {
+  width: 197px; }
+
+@media (max-width: 1020px) {
+  .dodatok .dodatok__info__left {
+    display: none; } }
+
+.dodatok .dodatok__info__left img {
+  width: 100%; }
+
+.dodatok .dodatok__info__right {
+  width: calc(100% - 412px);
+  padding: 20px 0 0 95px; }
+
+@media (max-width: 1020px) {
+  .dodatok .dodatok__info__right {
+    width: 100%;
+    padding-left: 0; } }
+
+.dodatok .dodatok__info__right__list {
+  width: 100%;
+  max-width: 522px;
+  margin-bottom: 10px; }
+
+@media (max-width: 1020px) {
+  .dodatok .dodatok__info__right__list {
+    max-width: 100%; } }
+
+.dodatok .dodatok__info__right__list__item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+
+.dodatok .dodatok__info__right__list__item .num {
+  margin-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+
+.dodatok .download__app__item span {
+  font-size: 17px;
+  line-height: 27px;
+  color: #2b2f4a;
+  font-weight: 300; }
+
+@media (max-width: 420px) {
+  .dodatok .dodatok__info__right__list__item .num {
+    margin-right: 18px; } }
+
+.dodatok .dodatok__info__right__list__item .num span {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #faa61a;
+  display: block;
+  margin-bottom: 5px; }
+
+.dodatok .dodatok__info__right__list__item .num .hr {
+  width: 1px;
+  background: #c7d7ff;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+.dodatok .dodatok__info__right__list__item .text .title {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: #476488;
+  display: block;
+  margin-bottom: 10px; }
+
+.dodatok .dodatok__info__right__list__item .text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2b2f4a;
+  margin-top: 5px; }
+
+.dodatok .download__app {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+
+@media (max-width: 650px) {
+  .dodatok .download__app {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+.dodatok .download__app__item {
+  margin-right: 74px; }
+
+@media (max-width: 650px) {
+  .dodatok .download__app__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media (max-width: 420px) {
+  .dodatok .download__app__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; } }
+
+.dodatok .download__app__item a {
+  display: block;
+  margin-bottom: 16px; }
+
+@media (max-width: 650px) {
+  .dodatok .download__app__item a {
+    margin-bottom: 0;
+    margin-right: 10px; } }
+
+@media (max-width: 420px) {
+  .dodatok .download__app__item a {
+    margin-bottom: 14px; } }
+
+.dodatok .download__app__item a img {
+  max-width: 145px; }
+
+.dodatok .download__app__item span b {
+  font-weight: 600; }
+
+/*# sourceMappingURL=main.css.map */
